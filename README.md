@@ -3,5 +3,6 @@
 [![Dependency Status](https://david-dm.org/wijagels/simple-login.svg)](https://david-dm.org/wijagels/simple-login)
 [![devDependency Status](https://david-dm.org/wijagels/simple-login/dev-status.svg)](https://david-dm.org/wijagels/simple-login#info=devDependencies)
 [![Coverage Status](https://coveralls.io/repos/github/wijagels/simple-login/badge.svg?branch=master)](https://coveralls.io/github/wijagels/simple-login?branch=master)
+[![npm version](https://badge.fury.io/js/simple-login.svg)](https://badge.fury.io/js/simple-login)
 
 A very simple login system to make testing fast and easy.
