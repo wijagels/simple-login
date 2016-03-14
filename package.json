@@ -1,0 +1,40 @@
+{
+  "name": "simple-login",
+  "version": "0.0.1",
+  "description": "A simple user management module",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp test",
+    "coveralls": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
+    "docs": "gulp docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wijagels/simple-login.git"
+  },
+  "author": {
+    "name": "William Jagels",
+    "email": "will.jagels@gmail.com",
+    "url": "http://jagels.us/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wijagels/simple-login/issues"
+  },
+  "homepage": "https://github.com/wijagels/simple-login#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "bcrypt": "^0.8.5",
+    "mongodb": "^2.1.8"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.8",
+    "gulp": "^3.9.1",
+    "gulp-jsdoc3": "^0.2.1",
+    "gulp-mocha": "^2.2.0",
+    "istanbul": "^0.4.2",
+    "jsdoc": "^3.4.0",
+    "mocha": "^2.4.5",
+    "mocha-lcov-reporter": "^1.2.0"
+  }
+}

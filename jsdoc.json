@@ -1,0 +1,7 @@
+{
+    "templates": {
+        "default": {
+            "layoutFile": "./node_modules/jsdoc/templates/default/tmpl/layout.tmpl"
+        }
+    }
+}
